@@ -1,0 +1,60 @@
+* {
+    background-color: gray;
+    font-family: 'Lucida Console', Courier, monospace;
+}
+#title {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    
+}
+
+#align {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#button_left {
+    background-color: rgb(44, 9, 143);
+    float: left;
+}
+
+.button {
+    margin: 7px;
+    background-color: rgb(207, 15, 79);
+    padding-top: 0;
+}
+
+button {
+    font-size: 14px;
+    border-radius: 2px 10px;
+    width: 140px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Console', Courier, monospace;
+}
+
+button:hover {
+    background-color: green;
+}
+
+button:active {
+    background-color: black;
+    transform: rotateY(10px);
+}
+
+#bars {
+    margin: 15px auto;
+    height: 150px;
+    overflow: hidden;
+    width: max-content;
+    display: block;
+}
+
+#slider {
+    padding: 0px 10px;
+    margin: 10px 190px;
+    border: 10px;
+}
